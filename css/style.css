@@ -1,0 +1,232 @@
+/*
+ * General/Utility Styles
+*/
+
+* {
+  -moz-box-sizing: border-box; /* Firexfox */
+  -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+  box-sizing: border-box; /* IE */
+}
+
+body {
+  margin: 0;
+  background: rgb(245, 245, 245);
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 0.875rem;
+  color: rgb(86, 90, 92);
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  font-weight: bold;
+  color: rgb(255, 89, 95);
+  text-decoration: none;
+}
+
+strong {
+  font-weight: 600;
+}
+
+
+/*
+ * Button styles
+*/
+
+.button {
+  background: rgb(255, 89, 95);
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 0.75rem 5rem;
+  border-bottom: 1px solid rgb(227, 25, 29);
+  border-radius: 2px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+header {
+  background: white;
+}
+
+header .logo {
+  border-right: 2px solid #DCE0E0;
+}
+
+.hero img{
+  width: 100%;
+}
+
+h1 {
+  font-size: 22px;
+  color: #666a6c;
+}
+
+/*
+
+* Info
+*/
+
+
+.info {
+  background: #fff;
+  text-align: center;
+  padding: 25px;
+}
+
+.info .owner-details img {
+  border-radius: 50%;
+  margin-bottom: 3px;
+}
+
+.info h2.relationship, .info h2.name {
+  color: #909597;
+  margin-bottom: 3px;
+}
+
+.info h2.name {
+  font-weight: bold;
+  margin-bottom: 3px;
+  padding: 3px;
+}
+
+
+
+.info .icon {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 6px;
+  padding: 5px;
+   margin-top: 3px;
+}
+
+.info .booking h2 {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 6px;
+  padding: 3px;
+
+}
+.About h1{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+.About p{
+  margin: 20px;
+  text-align: center;
+}
+.About h2{
+  text-align: center;
+  color: red;
+}
+.games p{
+  margin: 0%;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 100;
+}
+.care{
+  margin: 20px;
+border-top: 0.2px solid #DCE0E0;
+border-bottom: 0.2px solid #DCE0E0; 
+padding: 20px;
+   }
+
+.care p{
+  margin: 0%;
+  text-align:left;
+  font-size: 16px;
+
+}
+.games{
+  margin: 20px;
+border-top: 0.2px solid #DCE0E0;
+border-bottom: 0.2px solid #DCE0E0; 
+ 
+}
+.games .icon{
+  margin: 20px;
+}
+@media only screen and (min-width: 1060px) {
+
+
+.container {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.column {
+  float: left;
+}
+
+
+.info .profile {
+  width: 660px;
+}
+
+.info .booking {
+  width: 380px;
+}
+
+.info .owner-details {
+ width: 20%;
+}
+
+.info .pet-details {
+  width: 80%;
+ text-align: left;
+}
+
+
+.games .icons {
+  text-align: left;
+}
+
+.dog-pics{
+ padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
